@@ -17,7 +17,7 @@ to your `composer.json` file:
 ```json
 {
     "require": {
-        "tshalif/omnipay-webpay": "~1.0"
+        "tshalif/omnipay-webpay": "~2.0"
     }
 }
 ```
