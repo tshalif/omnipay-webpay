@@ -1,6 +1,6 @@
 # Omnipay: Webpay
 
-**Webpay payment processing driver for the Omnipay PHP payment processing library**
+**webpay.jp payment processing driver for the Omnipay PHP payment processing library**
 
 Important note: at the moment, only the '$gateway->authorize()' is implemented..
 
@@ -34,12 +34,20 @@ The following gateways are provided by this package:
 * Webpay
 
 ```php
-    $gateway = Omnipay::create('Webpay');
+    $gateway = Omnipay\Omnipay::create('Webpay');
     $gateway->setAuthToken('test_secret_xxxxxxxxxxxxxxxxxxxxxxxx');
 
+    $card = new Omnipay\Common\CreditCard();
+
+    $card->setNumber("4242424242424242");
+    $card->setExpiryMonth("10");
+    $card->setExpiryYear("2020");
+    $card->setCvv("123");
+    $card->setName("ZAPHOD BEEBLEBROX");
+    
     try {
         $params = array(
-            'amount'                => 10.00,
+            'amount'                => 4200,
             'card'                  => $card,
         );
 
