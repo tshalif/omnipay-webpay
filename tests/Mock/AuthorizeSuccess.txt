@@ -1,0 +1,41 @@
+HTTP/1.1 200 OK
+Access-Control-Allow-Headers: accept, origin, content-type
+Access-Control-Allow-Origin: *
+Cache-Control: no-cache
+Content-Length: 965
+Content-Type: application/json; charset=utf-8
+Date: Thu, 24 Mar 2016 18:04:30 GMT
+Expires: -1
+Pragma: no-cache
+Server: Microsoft-IIS/8.5
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+
+{
+    "id": "ch_btBfZZ23w3FHgbb",
+    "object": "charge",
+    "livemode": false,
+    "currency": "jpy",
+    "description": "1700392102 Chefworks JP",
+    "amount": 2327,
+    "amount_refunded": 0,
+    "created": 1470906352,
+    "paid": true,
+    "refunded": false,
+    "card": {
+      "object": "card",
+      "exp_year": 2018,
+      "exp_month": 5,
+      "fingerprint": "1054cd0679042d072ede9178caa9fbc1030624c9",
+      "name": "ZAPHOD BEEBLEBROX",
+      "country": "JP",
+      "type": "Visa",
+      "cvc_check": "pass",
+      "last4": "1111"
+    },
+    "captured": false,
+    "expire_time": 1471511152,
+    "fees": [
+
+    ]
+}
