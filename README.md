@@ -4,10 +4,10 @@
 
 Important note: at the moment, only the '$gateway->authorize()' is implemented..
 
-[![Build Status](https://travis-ci.org/tshalif/omnipay-webpay.svg)](https://travis-ci.org/tshalif/omnipay-webpay) [![Coverage Status](https://coveralls.io/repos/github/tshalif/omnipay-webpay/badge.svg?branch=master)](https://coveralls.io/github/tshalif/omnipay-webpay?branch=master) [![Latest Stable Version](https://poser.pugx.org/tshalif/omnipay-webpay/v/stable.svg)](https://packagist.org/packages/tshalif/omnipay-webpay) [![Total Downloads](https://poser.pugx.org/tshalif/omnipay-webpay/downloads)](https://packagist.org/packages/tshalif/omnipay-webpay)
+[![Build Status](https://travis-ci.org/tshalif/omnipay-webpay.svg?branch=master)](https://travis-ci.org/tshalif/omnipay-webpay) [![Coverage Status](https://coveralls.io/repos/github/tshalif/omnipay-webpay/badge.svg?branch=master)](https://coveralls.io/github/tshalif/omnipay-webpay?branch=master) [![Latest Stable Version](https://poser.pugx.org/tshalif/omnipay-webpay/v/stable.svg)](https://packagist.org/packages/tshalif/omnipay-webpay) [![Total Downloads](https://poser.pugx.org/tshalif/omnipay-webpay/downloads)](https://packagist.org/packages/tshalif/omnipay-webpay)
 
 [Omnipay](https://github.com/thephpleague/omnipay) is a framework agnostic, multi-gateway payment
-processing library for PHP 5.3+. This package implements Webpay support for Omnipay. Please see the [Webpay Developer Portal](http://developer.webpay.com/) for more information.
+processing library for PHP 5.3+. This package implements Webpay support for Omnipay. Please see the [Webpay main site (Japanese)](https://webpay.jp/) for more information.
 
 ## Installation
 
